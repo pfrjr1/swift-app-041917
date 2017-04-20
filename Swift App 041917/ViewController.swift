@@ -3,7 +3,7 @@
 //  Swift App 041917
 //
 //  Created by Peter Rooney on 4/19/17.
-//  Copyright © 2017 Peter Rooney. All rights reserved.
+//  Copyright © 2017 Peter Rooney. All rights reserved..
 //
 
 import UIKit
@@ -13,11 +13,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var theLabel: UILabel!
     
-    var tapCount = 0
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
     
     @IBAction func buttonTapped(_ sender: AnyObject) {
-        tapCount = tapCount + 1
-        print(tapCount)
+        theLabel.text = Double(text1.text!) + Double(text2.text!)
+       
+    
     }
     
     override func viewDidLoad() {

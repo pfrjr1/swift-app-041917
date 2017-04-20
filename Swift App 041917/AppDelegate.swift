@@ -3,7 +3,7 @@
 //  Swift App 041917
 //
 //  Created by Peter Rooney on 4/19/17.
-//  Copyright © 2017 Peter Rooney. All rights reserved.
+//  Copyright © 2017 Peter Rooney. All rights reserved. :)
 //
 
 import UIKit
