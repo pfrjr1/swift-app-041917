@@ -10,9 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var theLabel: UILabel!
+    
+    var tapCount = 0
+    
+    @IBAction func buttonTapped(_ sender: AnyObject) {
+        tapCount = tapCount + 1
+        print(tapCount)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
